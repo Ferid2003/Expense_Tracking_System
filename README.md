@@ -1,7 +1,7 @@
 # DIP383
 
 
-#Expense Tracking System
+# Expense Tracking System
 
 This system is the notebook for your expenses and incomes, showing all the information , usefull charts and diagrams that will be neeeded for visualization and many more.
 
