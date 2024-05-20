@@ -1,0 +1,13 @@
+.rePassword{
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    color: #999999;
+    margin-bottom: calc(var(--var)*3);
+    border-bottom: 2px solid #FFF;
+    font-size: calc(var(--var)*0.8);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

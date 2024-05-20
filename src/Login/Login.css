@@ -1,0 +1,215 @@
+.login-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 100;
+}
+.title{
+    cursor: default;
+    margin-bottom: calc(var(--var)*5.5);
+    font-family: 'JK Abode', sans-serif;
+    font-size: calc(var(--var)*4);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+.login-cont-holder{
+    display: flex;
+    flex-direction: column;
+}
+.login-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.username{
+    outline: none;
+    padding: 12px 20px;
+    color: #999999;
+    margin-bottom: calc(var(--var)*2);
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: calc(var(--var)*0.8);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.email{
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    color: #999999;
+    margin-bottom: calc(var(--var));
+    border-bottom: 2px solid #FFF;
+    font-size: calc(var(--var)*0.8);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.password{
+    outline: none;
+    padding: 12px 20px;
+    color: #999999;
+    margin-bottom: calc(var(--var)*0.5);
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: calc(var(--var)*0.8);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.resetPas{
+    font-size: calc(var(--var)*0.66);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    text-align: right;
+    margin-right: calc(var(--var)*0.5);
+    margin-bottom: calc(var(--var)*2);
+}
+.redirect{
+    color: #FFFFFF;
+    font-size: calc(var(--var)*0.8);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.redirect-link{
+    text-decoration: none;
+    color: #3438ef;
+}
+.login{
+    border: none;
+    text-decoration: none;
+    padding: 10px calc(var(--var)*11);
+    color: #FFFFFF;
+    font-size: calc(var(--var)*0.8);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    margin-bottom: calc(var(--var)*3);
+}
+.login:hover{
+    background: linear-gradient(#f54e06, #e12036);
+}
+.loginDark{
+    background: linear-gradient(#F05F22, #E53F52);
+}
+.loginLight{
+    background: linear-gradient(#F05F22, #E53F52);
+}
+
+.left{
+    margin-top: 2vw;
+    background-size: 100% 100%;
+    height: calc(var(--var)*31);
+    width: calc(var(--var)*11);
+    z-index: 1;
+    position: absolute;
+    background-image: url("../images/Ellipse 1.png");
+    background-repeat: no-repeat;
+}
+.circle{
+    margin: 6.75vw 15vh;
+    background-size: 100% 100%;
+    height: calc(var(--var)*3);
+    width: calc(var(--var)*3);
+    z-index: 1;
+    position: absolute;
+    background-image: url("../images/Ellipse 2.png");
+    background-repeat: no-repeat;
+}
+.top-right{
+    margin-left: calc(100% - calc(var(--var)*11));
+    background-size: 100% 100%;
+    height: calc(var(--var)*16);
+    width: calc(var(--var)*11);
+    z-index: 1;
+    position: absolute;
+    background-image: url("../images/Subtract.png");
+    background-repeat: no-repeat;
+}
+.bottom-right{
+    margin-left: calc(100% - calc(var(--var)*9));
+    margin-top: calc(100vh - calc(var(--var)*9));
+    background-size: 100% 100%;
+    height: calc(var(--var)*7);
+    width: calc(var(--var)*7);
+    z-index: 1;
+    position: absolute;
+    background-image: url("../images/Polygon 1.png");
+    background-repeat: no-repeat;
+}
+.bottom-right2{
+    margin-left: calc(100% - calc(var(--var)*7));
+    margin-top: calc(100vh - calc(var(--var)*7));
+    background-size: 100% 100%;
+    height: calc(var(--var)*7);
+    width: calc(var(--var)*7);
+    z-index: 1;
+    position: absolute;
+    background-image: url("../images/Polygon 1.png");
+    background-repeat: no-repeat;
+}
+.bottom-right3{
+    margin-left: calc(100% - calc(var(--var)*5));
+    margin-top: calc(100vh - calc(var(--var)*5));
+    background-size: 100% 100%;
+    height: calc(var(--var)*5);
+    width: calc(var(--var)*5);
+    z-index: 1;
+    position: absolute;
+    background-image: url("../images/Polygon 3.png");
+    background-repeat: no-repeat;
+}
+
+.fa-eye{
+    position: absolute;
+    top: calc(var(--var)*4.6);
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+}
+#eye2{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    #eye2{
+        display: block;
+        top: calc(var(--var)*5.7);
+    }
+    .fa-eye{
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    #eye2{
+        display: block;
+        top: calc(var(--var)*6.4);
+    }
+}
+
+@media (max-width: 350px) {
+    .circle{
+        display: none;
+    }
+}
+@media (max-width: 260px) {
+    #eye2{
+        top: calc(var(--var)*7);
+    }
+    .login-form{
+        max-width: 170px;
+    }
+    .login{
+        padding: 10px 0;
+    }
+}
